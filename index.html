@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--====BOX ICONS====-->
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <title>Portfolio website</title>
+</head>
+<body>
+    <!--===Section one navbar starts here===-->
+    <header class="wow zoomIn" id="home">
+        <div class="logo">
+            <h1>Saurabh</h1>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#home1">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
+    </header>
+    <!----Section One Ends Here---->
+    <!----Section Two Header Starts Here---->
+    <div class="main-header" id="home1">
+        <div class="header-content wow zoomIn" style="animation-delay: 600ms">
+            <h1 class="header_main_content_h1">
+                HEY,<br />
+                I'm <span>Saurabh</span><br/>
+            </h1>
+            <a href="Saurabh_Sharma.pdf" download="Resume(Saurabh Sharma)"><button class="cta">Download Resume</button></a>
+            <div class="logo_socials">
+                <div class="logo_socials_soc">
+                    <img src = "assets/img/instagram.svg" alt="My Happy SVG" width="21" height="18"/>
+                    <img src = "assets/img/youtube.svg" alt="My Happy SVG" width="21" height="20"/>
+                    <img src = "assets/img/twitter.svg" alt="My Happy SVG" width="21" height="20"/>
+                </div>
+            </div>
+        </div>
+        <div class="header_main_img wow zoomIn" style="animation-delay: 900ms">
+            <img src="assets/img/undraw_Success_factors_re_ce93.svg" alt="" srcset="" width="100%"/>
+        </div>
+    </div>
+    <!----Section Two Header Ends Here---->
+
+    <!----Section Three About Starts Here---->
+    <div class="about-section" id="about">
+        <div class="about-heading">
+            <h1 class="wow zoomIn">ABOUT</h1>
+        </div>
+        <div class="about">
+            <div class="wow zoomIn" style="animation-delay: 300ms">
+                <img src="assets/img/myimagevactorize.svg" alt="" height="500px" />
+            </div>
+            <div class="wow zoomIn" style="animation-delay: 600ms">
+                <h1>I'm Saurabh</h1>
+                <p>
+                    I'm a 3rd year B.tech. Student of Information Technology 
+                    who wants to build a carrier as a software Engineer !!
+                    I'm a good learner by observation and I'm open to any
+                    challenging work.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!----Section Three About Ends Here---->
+
+    <!----Section Four Skills Starts Here---->
+    <div class="skill-section" id="skills">
+        <div class="skill-section-heading">
+            <h1 class="wow zoomIn">SKILLS</h1>
+        </div>
+        <div class="skills">
+            <div class="skills-content wow zoomIn" style="animation-delay: 300ms">
+                <ol>
+                    <li><h2 class="wow zoomIn">HTML</h2></li>
+                    <li><h2 class="wow zoomIn">CSS</h2></li>
+                    <li><h2 class="wow zoomIn">JavaScript</h2></li>
+                    <li><h2 class="wow zoomIn">Python</h2></li>
+                    <li><h2 class="wow zoomIn">DS & Algo.</h2></li>
+                    <li><h2 class="wow zoomIn">DBMS</h2></li>
+                </ol>   
+            </div>
+            <div class="skills-img wow zoomIn" style="animation-delay:600ms">
+                <img src="assets/img/undraw_online_cv_qy9w.svg" alt=""  width="80%">
+            </div>
+        </div>
+    </div>
+    <!----Section Four Skills Ends Here---->
+
+    <!----Section Five Work Starts Here---->
+    <div class="work-section" id="work">
+        <div class="work-section-heading">
+            <h1 class="wow zoomIn">WORK</h1>
+        </div>
+        <div class="work wow zoomIn">
+            <img src="assets/img/work1.png" alt="" />
+            <img src="assets/img/work2.png" alt="" />
+            <img src="assets/img/work3.png" alt="" />
+            <img src="assets/img/work4.png" alt="" />
+            <img src="assets/img/work5.jpg" alt="" />
+            <img src="assets/img/work6.jpg" alt="" />
+        </div>
+    </div>
+    <!----Section Five Work Ends Here---->
+    <!----Section Six Contact Starts Here---->
+    <div class="contact-heading wow zoomIn">
+        <h1>CONTACT</h1>
+    </div>
+    <div
+        class="container wow zoomIn"
+        style="animation-delay: 300ms;"
+        id="contact"
+    >
+        <form action="" method="POST" class="contact-form">
+            <div class="form-field">
+                <label for="fullname">Fullname</label>
+                <input
+                    type="text"
+                    class="fullname"
+                    name="fullname"
+                    placeholder="Fullname"
+                    required
+                    autofocus
+                />
+            </div>
+            <div class="form-field">
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    class="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                />
+            </div>
+            <div class="form-field">
+                <label for="message">Message</label>
+                <textarea
+                    type="message"
+                    class="message"
+                    name="message"
+                    placeholder="Message here...."
+                    required
+                    rows="4"
+                ></textarea>
+            </div>
+            <div class="form-field btn">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <!----Section Six Contact Ends Here---->
+    <!----Section Seven Footer Starts Here---->
+    <footer>
+        <div class="logo-socials">
+            <h1>Thank You</h1>
+            <h2>Saurabh Sharma</h2>
+            <h3>Contact No.-8979382373</h3>
+            <div class="logo-socials-soc">
+                <img src = "assets/img/instagram.svg" alt="My Happy SVG" width="21" height="18"/>
+                <img src = "assets/img/youtube.svg" alt="My Happy SVG" width="21" height="20"/>
+                <img src = "assets/img/twitter.svg" alt="My Happy SVG" width="21" height="20"/>
+            </div>
+        </div>
+    </footer>
+    <!----Section Seven Footer Ends Here---->
+
+    <script>
+        // Navbar Sticky Effect Code
+        window.onscroll=function() {myFunction()};
+        function myFunction(){
+        if (document.body.scrollTop>50||document.documentElement.scrollTop>50){
+        document.getElementById("home").className="sticky";
+        } else{
+        document.getElementById("home").className="";
+        }
+        }
+        // Hamburger Code
+        document.querySelector(".hamburger").addEventListener("click",(e) => {
+        e.preventDefault();
+        document.querySelector(".navigation").classList.toggle("active");
+        });
+        //wow js code
+        wow= new WOW({
+            boxClass:"wow",
+            animateClass:"animated",
+            offset:0,
+            mobile:true,
+            live:true,
+        });
+        wow.init();
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
