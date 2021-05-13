@@ -15,10 +15,10 @@ function submitForm(e) {
 function sendEmail(fullname,email,message) {
     Email.send({
         Host:"smtp.gmail.com",
-        Username:'saurabh5692792@gmail.com',
-        Password:"tgsssncningpqdwj",
-        To:'saurabh5692792@gmail.com',
-        From:'saurabh5692792@gmail.com',
+        Username:'itsaurabh@csjmu.ac.in',
+        Password:"axlhhpplgandaycf",
+        To:'itsaurabh@csjmu.ac.in',
+        From:'itsaurabh@csjmu.ac.in',
         Subject:`${fullname} sent you a message`,
         Body:`Name: ${fullname} <br/> Email: ${email} <br/> Message: ${message}`,
     }).then((message) => alert("mail sent successfully"));
