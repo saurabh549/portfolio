@@ -16,7 +16,7 @@ function sendEmail(fullname,email,message) {
     Email.send({
         Host:"smtp.gmail.com",
         Username:'saurabh5692792@gmail.com',
-        Password:"tapcwpyaylrdkxui",
+        Password:"tgsssncningpqdwj",
         To:'saurabh5692792@gmail.com',
         From:'saurabh5692792@gmail.com',
         Subject:`${fullname} sent you a message`,
